@@ -1,0 +1,75 @@
+/*Smartphone*/
+@media screen and (max-width: 767px)
+{
+    body 
+    {
+        max-width: 370px;
+        margin: auto;
+    }
+    header
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo{
+        margin-left: 50px;
+    }
+    .recherche_bar
+    {
+        margin-left: 5%;
+   
+    }
+    .city
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0%;
+        padding: 10px;
+    }
+    .city ul
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    h1{
+        margin-left: 90px;
+    }
+    #description{
+        display: flex;
+        flex-wrap: wrap;   
+        margin: 10%;
+    }
+    #boxs{
+        flex-direction: column;
+    }
+    #box{
+        flex-direction: column;
+    }
+    .bloc_footer{
+        margin-left: 20px;
+    }
+    
+}
+
+/*Tablet*/
+@media screen and (max-width: 992px)
+{
+    body 
+    {
+        width: 768px;
+    }
+
+    header  
+    {
+        width: 90%;
+    }
+    header img 
+    {
+        margin: 15%;
+    }
+
+    #box{
+        padding-left: 4px;
+    }
+}
